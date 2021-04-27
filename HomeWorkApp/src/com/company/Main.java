@@ -7,11 +7,13 @@ public class Main {
         printColor();
         compareNumbers();
     }
+
     public static void printThreeWords() {
         System.out.println("_Orange");
         System.out.println("_Banana");
         System.out.println("_Apple");
     }
+
     public static void checkSumSign() {
         int a = 10;
         int b = 30;
@@ -22,6 +24,7 @@ public class Main {
             System.out.println("Сумма отрицательная");
         }
     }
+
     public static void printColor() {
         int value = 70;
         if (value <= 0){
@@ -32,6 +35,7 @@ public class Main {
             System.out.println("Зеленый");
         }
     }
+
     public static void compareNumbers() {
         int a = 100;
         int b = 500;
@@ -40,6 +44,5 @@ public class Main {
         } else {
             System.out.println( "a < b");
         }
-
     }
 }
