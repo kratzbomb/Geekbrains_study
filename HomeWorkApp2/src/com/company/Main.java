@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static boolean checkNum(int num1, int num2) {
-        if ((num1 + num2) >= 10 & (num1 + num2) <= 20) {
+        if ((num1 + num2) >= 10 && (num1 + num2) <= 20) {
             return true;
         } else {
             return false;
